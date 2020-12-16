@@ -18,7 +18,9 @@ public class BaseTest {
 	public void setUP() {
 
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\n\\Desktop\\chromedriver_win32\\chromedriver1.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Desktop_Data\\chromedriver_win32\\chromedriver1.exe");
+		
+		
 		//	WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
