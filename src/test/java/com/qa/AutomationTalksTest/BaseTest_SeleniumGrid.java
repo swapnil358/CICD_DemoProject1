@@ -14,6 +14,12 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+/**
+ * This base class is configured for seleniumGrid 
+ * @author swapn
+ *
+ */
+
 public class BaseTest_SeleniumGrid {
 
 	WebDriver driver;
@@ -31,7 +37,7 @@ public class BaseTest_SeleniumGrid {
 		 
 		// System.setProperty("webdriver.geckodriver.driver", "D:\\SeleniumGrid\\geckodriver.exe");
 
-		driver = new RemoteWebDriver(new URL("http://192.168.0.104:4444/wd/hub"), dr);
+	driver = new RemoteWebDriver(new URL("http://192.168.0.104:4444/wd/hub"), dr);
 
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);

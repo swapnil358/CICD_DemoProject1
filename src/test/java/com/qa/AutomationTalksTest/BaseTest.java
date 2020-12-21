@@ -19,20 +19,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest extends ObjectRepository {
 
-	// WebDriver driver;
+	WebDriver driver;
 
 	@BeforeMethod
 	public void setUP() throws InterruptedException {
 
 		System.setProperty("webdriver.chrome.driver", "D:\\Desktop_Data\\chromedriver_win32\\chromedriver1.exe");
 
-		// WebDriverManager.chromedriver().setup();
-		
-		//Selenium grid desired capabalities
-		DesiredCapabilities dr = null;
-		dr = DesiredCapabilities.chrome();
-		dr.setBrowserName("chrome");
-		dr.setPlatform(Platform.WIN10);
 		
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();

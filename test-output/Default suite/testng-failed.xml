@@ -8,6 +8,7 @@
           <include name="tearDown"/>
           <include name="ValidateRegistrationpage"/>
           <include name="setUP"/>
+          <include name="ValidateHomepage"/>
           <include name="ValidateLoginPage"/>
         </methods>
       </class> <!-- com.qa.AutomationTalksTest.BaseTest_SeleniumGrid -->
