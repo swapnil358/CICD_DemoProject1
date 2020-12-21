@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="methods" thread-count="3">
+<suite name="Suite" parallel="methods" thread-count="5">
 	<listeners>
-		<listener class-name="com.qa.AutomationTalksTest.ListenerImplementation" />
-		<listener class-name="com.qa.AutomationTalksTest.TestRetryAnalyzerListener" />
+	<listener class-name="com.qa.AutomationTalksTest.ListenerImplementation"/>
 	</listeners>
-
-	<test name="Test">
+	
+	<test name="test">
 		<classes>
 			<class name="com.qa.AutomationTalksTest.BaseTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
+ 

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test name="Test(failed)">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.AutomationTalksTest.ListenerImplementation"/>
+  </listeners>
+  <test parallel="methods" name="test(failed)">
     <classes>
       <class name="com.qa.AutomationTalksTest.BaseTest">
         <methods>
+          <include name="ValidateRegistrationpage"/>
           <include name="setUP"/>
           <include name="tearDown"/>
-          <include name="test2"/>
-          <include name="test1"/>
-          <include name="test3"/>
+          <include name="ValidateLoginPage"/>
         </methods>
       </class> <!-- com.qa.AutomationTalksTest.BaseTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
