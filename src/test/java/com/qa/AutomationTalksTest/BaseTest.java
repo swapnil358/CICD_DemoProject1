@@ -19,7 +19,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest extends ObjectRepository {
 
-	WebDriver driver;
+
 
 	@BeforeMethod
 	public void setUP() throws InterruptedException {
@@ -39,7 +39,7 @@ public class BaseTest extends ObjectRepository {
 
 	@Test( description = "Validate login page")
 	public void ValidateLoginPage() {
-		test.log(Status.PASS, "Login to application with valid credentials");
+		//test.log(Status.PASS, "Login to application with valid credentials");
 		System.out.println("ValidateLoginPage: " + driver.getTitle());
 		/*
 		 * driver.findElement(By.xpath(
