@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-21T13:20:27Z" name="Suite" finished-at="2020-12-21T13:21:15Z" duration-ms="47677">
+  <suite started-at="2020-12-27T14:55:27Z" name="Default suite" finished-at="2020-12-27T14:56:01Z" duration-ms="33973">
     <groups>
     </groups>
-    <test started-at="2020-12-21T13:20:27Z" name="Test" finished-at="2020-12-21T13:21:15Z" duration-ms="47677">
-      <class name="com.qa.AutomationTalksTest.BaseTest">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest@1ff4931d]" started-at="2020-12-21T18:50:28Z" name="setUP" finished-at="2020-12-21T18:50:42Z" duration-ms="13588" status="PASS">
+    <test started-at="2020-12-27T14:55:27Z" name="Default test" finished-at="2020-12-27T14:56:01Z" duration-ms="33973">
+      <class name="com.qa.AutomationTalksTest.BaseTest_SeleniumGrid">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest_SeleniumGrid@b3ca52e]" started-at="2020-12-27T20:25:27Z" name="setUP" finished-at="2020-12-27T20:25:38Z" duration-ms="11376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="ValidateHomepage()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest@1ff4931d]" started-at="2020-12-21T18:50:42Z" name="ValidateHomepage" description="Validate Home page" finished-at="2020-12-21T18:50:42Z" duration-ms="24" status="PASS">
+        <test-method signature="ValidateHomepage()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest_SeleniumGrid@b3ca52e]" started-at="2020-12-27T20:25:38Z" name="ValidateHomepage" description="Validate Home page" finished-at="2020-12-27T20:25:38Z" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateHomepage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest@1ff4931d]" started-at="2020-12-21T18:50:42Z" name="tearDown" finished-at="2020-12-21T18:50:43Z" duration-ms="1346" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest_SeleniumGrid@b3ca52e]" started-at="2020-12-27T20:25:38Z" name="tearDown" finished-at="2020-12-27T20:25:39Z" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest@1ff4931d]" started-at="2020-12-21T18:50:43Z" name="setUP" finished-at="2020-12-21T18:50:56Z" duration-ms="13224" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest_SeleniumGrid@b3ca52e]" started-at="2020-12-27T20:25:39Z" name="setUP" finished-at="2020-12-27T20:25:49Z" duration-ms="10902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="ValidateLoginPage()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest@1ff4931d]" started-at="2020-12-21T18:50:56Z" name="ValidateLoginPage" description="Validate login page" finished-at="2020-12-21T18:50:56Z" duration-ms="18" status="PASS">
+        <test-method signature="ValidateLoginPage()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest_SeleniumGrid@b3ca52e]" started-at="2020-12-27T20:25:49Z" name="ValidateLoginPage" description="Validate login page" finished-at="2020-12-27T20:25:49Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest@1ff4931d]" started-at="2020-12-21T18:50:56Z" name="tearDown" finished-at="2020-12-21T18:50:57Z" duration-ms="928" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest_SeleniumGrid@b3ca52e]" started-at="2020-12-27T20:25:49Z" name="tearDown" finished-at="2020-12-27T20:25:50Z" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest@1ff4931d]" started-at="2020-12-21T18:50:57Z" name="setUP" finished-at="2020-12-21T18:51:14Z" duration-ms="16942" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest_SeleniumGrid@b3ca52e]" started-at="2020-12-27T20:25:50Z" name="setUP" finished-at="2020-12-27T20:26:01Z" duration-ms="11148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="ValidateRegistrationpage()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest@1ff4931d]" started-at="2020-12-21T18:51:14Z" name="ValidateRegistrationpage" description="Validate Registration page" finished-at="2020-12-21T18:51:14Z" duration-ms="23" status="PASS">
+        <test-method signature="ValidateRegistrationpage()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest_SeleniumGrid@b3ca52e]" started-at="2020-12-27T20:26:01Z" name="ValidateRegistrationpage" description="Validate Registration page" finished-at="2020-12-27T20:26:01Z" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateRegistrationpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest@1ff4931d]" started-at="2020-12-21T18:51:14Z" name="tearDown" finished-at="2020-12-21T18:51:15Z" duration-ms="727" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.AutomationTalksTest.BaseTest_SeleniumGrid@b3ca52e]" started-at="2020-12-27T20:26:01Z" name="tearDown" finished-at="2020-12-27T20:26:01Z" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.AutomationTalksTest.BaseTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.qa.AutomationTalksTest.BaseTest_SeleniumGrid -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

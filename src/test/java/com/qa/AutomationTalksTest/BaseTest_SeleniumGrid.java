@@ -31,13 +31,13 @@ public class BaseTest_SeleniumGrid {
 
 		 DesiredCapabilities dr = DesiredCapabilities.chrome();
 		 dr.setBrowserName("chrome");
-		 dr.setPlatform(Platform.WINDOWS);
+		 dr.setPlatform(Platform.LINUX);
 		
 		 System.setProperty("webdriver.chrome.driver", "D:\\Desktop_Data\\chromedriver_win32\\chromedriver1.exe");
 		 
 		// System.setProperty("webdriver.geckodriver.driver", "D:\\SeleniumGrid\\geckodriver.exe");
 
-	driver = new RemoteWebDriver(new URL("http://192.168.0.104:4444/wd/hub"), dr);
+	driver = new RemoteWebDriver(new URL("http://localhost:4446/wd/hub"), dr);
 
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
@@ -52,10 +52,7 @@ public class BaseTest_SeleniumGrid {
 	public void ValidateLoginPage() {
 		// test.log(Status.PASS, "Login to application with valid credentials");
 		System.out.println("ValidateLoginPage: " + driver.getTitle());
-		driver.findElement(By.xpath(
-				"//body/div[@id='body-core']/header/div[@id='site-header']/div[@id='header']/div[@id='header-core']/div[@id='header-links']/div[@id='header-links-inner']/ul[@id='menu-topmenu']/li[@id='menu-item-462']/a[1]"))
-				.click();
-
+		
 	}
 
 	@Test(description = "Validate Home page")
@@ -67,13 +64,7 @@ public class BaseTest_SeleniumGrid {
 	@Test(description = "Validate Registration page")
 	public void ValidateRegistrationpage() {
 		// test.log(Status.PASS, "Validate registration page with details");
-		System.out.println("ValidateRegistrationpage:");
-
-		driver.findElement(By.xpath(
-				"//body/div[@id='body-core']/header/div[@id='site-header']/div[@id='header']/div[@id='header-core']/div[@id='header-links']/div[@id='header-links-inner']/ul[@id='menu-topmenu']/li[@id='menu-item-462']/a[1]"))
-				.click();
-		String actualText = driver.getTitle();
-		Assert.assertEquals(actualText, "Home page");
+		
 		System.out.println("ValidateRegistrationpage : " + driver.getTitle());
 
 	}

@@ -1,5 +1,6 @@
 package com.qa.AutomationTalksTest;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.bson.assertions.Assertions;
@@ -71,8 +72,9 @@ public class BaseTest extends ObjectRepository {
 	}
 
 	@AfterMethod
-	public void tearDown() {
+	public void tearDown() throws IOException {
 		driver.quit();
+		Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
 		
 	}
 
